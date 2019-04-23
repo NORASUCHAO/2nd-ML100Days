@@ -1,0 +1,50 @@
+import pandas as pd
+import numpy as np
+data = {'國家': ,
+        '人口': }
+data = pd.DataFrame()
+
+3-2
+
+target_url =https://raw.githubusercontent.com/vashineyu/slides_and_others/master/tutorial/examples/imagenet_urls_examples.txt
+print(len(data))
+data[0:100]
+split_tag =jpg
+data = data.split(split_tag)
+print(len(data))
+data[0]
+import pandas as pd
+
+    
+df = pd.DataFrame(arrange_data)
+df.head()
+from PIL import Image
+from io import BytesIO
+import numpy as np
+import matplotlib.pyplot as plt
+first_link = 
+
+response = requests.get(first_link)
+img = Image.open(BytesIO(response.content))
+plt.imshow(img)
+plt.show()
+def img2arr_fromURLs(url_list, resize = False):
+    """
+    請完成這個 Function
+    Args
+        - url_list: list of URLs
+        - resize: bool
+    Return
+        - list of array
+    """
+    
+    return img_list
+    
+    
+    
+    result = img2arr_fromURLs(df[0:5][1].values)
+print("Total images that we got: %i " % len(result)) # 如果不等於 5, 代表有些連結失效囉
+
+for im_get in result:
+    plt.imshow(im_get)
+    plt.show()
